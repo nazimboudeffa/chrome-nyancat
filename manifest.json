@@ -5,6 +5,9 @@
 "manifest_version": 2,
 "version": "1.0.0",
 "web_accessible_resources": [ "nyan.gif" ],
+"browser_action": {
+  "default_icon": "icons/32.png"
+},
 "content_scripts": [
     {
       "css": [ "nyan.css" ],
