@@ -6,7 +6,8 @@
 "version": "1.0.0",
 "web_accessible_resources": [ "nyan.gif" ],
 "browser_action": {
-  "default_icon": "icons/32.png"
+  "default_icon": "icons/32.png",
+  "default_popup": "nyan.html"
 },
 "content_scripts": [
     {
